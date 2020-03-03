@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Lucida Bright';
+    /* src: url('lucida-bright.eot'); */
+    /* src: url('lucida-bright.eot?#iefix') format('embedded-opentype'),
+         url('lucida-bright.woff') format('woff'), */
+       src: url('lucida-bright.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
