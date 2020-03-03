@@ -1,7 +1,6 @@
 # Landing page
 
-jekyll
-markdown
+- jekyll/markdown
 ...
 
 

@@ -1,20 +1,9 @@
-# Code
+# Decument 
 
-gitbook
-plantuml
+- from word to gitbook/plantuml/markdown
 
-## Vertical Slides
+- easy diff
 
-Or
+- seperate content from layout
 
---
-
-Even
-
---
-
-Vertical
-
---
-
-Slides
+- can be published, validated, etc

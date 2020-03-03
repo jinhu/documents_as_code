@@ -1,26 +1,7 @@
 # Reports
 
-text
-compare
-filter date time
+- text, json,xml
 
-# In the morning
+- compare using dev tools
 
-- because it's early
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
-## Breakfast
-
-- Eat eggs
-- Drink coffee
-
-# In the evening
-
-## Dinner
-
-- Eat spaghetti
-- Drink wine
+- filter date time

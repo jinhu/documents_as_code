@@ -1,8 +1,8 @@
 # Artifacts
 
-commit binary stuff
+- commit binary stuff
 
-compare with somithing usefull
+- compare with somithing usefull
 
 
 

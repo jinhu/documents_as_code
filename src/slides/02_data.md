@@ -1,72 +1,10 @@
 # Data
 
-json
-eden
-!xml
-# Table of content
+- yml, json, eden, !xml, sql, nosql, binary datastructure
 
-* Security problem with CANbus, Modbus, etc
-* Connect to Internet
-* Connect to apps
-* Data analytics
-* Add new feature faster
-* Migrate to a new hardware platform
-* Be a modern company
+- thunk differently
 
----
+- history of data is kept in git, data is human readable,json form?
 
-## Security problem with CANbus, Modbus, etc
-
-* Connect to Internet
-* Connect to apps
-* Data analytics
-* Add new feature faster
-* Migrate to a new hardware platform
-* Be a modern company
-
----
-
-## Connect to Internet
-
-* Connect to apps
-* Data analytics
-* Add new feature faster
-* Migrate to a new hardware platform
-* Be a modern company
-
----
-
-## Connect to apps
-
-* Data analytics
-* Add new feature faster
-* Migrate to a new hardware platform
-* Be a modern company
-
----
-
-## Data analytics
-
-* Add new feature faster
-* Migrate to a new hardware platform
-* Be a modern company
-
----
-
-## Add new feature faster
-
-* ...
-* ...
-
----
-
-## Migrate to a new hardware platform
-
-* ...
-
----
-## Be a modern company
-
-* ...
----
+- can be validated/checked published etc
 
