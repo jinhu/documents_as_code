@@ -1,12 +1,12 @@
 # * as Code
 
-* <!-- .element: class="fragment" --> Code as Code
-* <!-- .element: class="fragment" --> Data as Code
-* <!-- .element: class="fragment" --> Test as Code
-* <!-- .element: class="fragment" --> Artifacts as Code
-* <!-- .element: class="fragment" --> Documents as Code
-* <!-- .element: class="fragment" --> Slides as Code
-* <!-- .element: class="fragment" --> Landing pages as Code
-* <!-- .element: class="fragment" --> Reports as Code
-* <!-- .element: class="fragment" --> Tickets as Code
-* <!-- .element: class="fragment" --> ... as Code
+* Code as Code
+* Data as Code
+* Test as Code
+* Artifacts as Code
+* Documents as Code
+* Slides as Code
+* Websites as Code
+* Reports as Code
+* Tickets as Code
+* Interfaces as Code
