@@ -2,6 +2,7 @@ pages:
   stage: build
   script:
   - mv src public
+  - mv lib public/
   artifacts:
     expire_in: 1 week
     paths:
