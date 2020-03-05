@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="icon" type="image/png" href="lib/img/favicon.png">
         <title>Everything as Code</title>
-
         <link rel="stylesheet" href="lib/css/reveal.css">
         <link rel="stylesheet" href="lib/css/theme/altran.css">
         <link rel="stylesheet" href="lib/css/custom.css">
@@ -26,69 +26,8 @@
 				<section class="title" data-background-color="rgb(13,106,159)" data-markdown="0_title.md"></section>
                 <section>
                     <section data-markdown="idea/rational.md"></section>
-                    <section>
-                        <h2>Diagram for code</h2>
-                        <pre>
-                              <code class="language-plantuml">
-                                @startuml
-                                  database git
-                                  database test_reports
-                                  database artifact_repository
-                                (code)->(build)
-                                (build)->(check)
-                                (check)->(verify)
-                                (verify)->(publish)
-                                (publish)->(deploy)
-                                (deploy)->(validate)
-                                (validate)->(end result)
-
-                                git -down->code : stores
-                                test_reports -down-->verify
-                                artifact_repository-down->publish
-                                Developer -up-> (code) : write
-                                compiler --up-> (build): compiles
-                                linter --up-> (check): check all kinds of things
-                                unittest ---up-> (verify): verifies small parts
-                                :package manager: --up-> (publish): wrap content in a know format
-                                :known scripts: -up-> (deploy): deploy it on a known location
-                                :system test: --up-> (validate): validate
-                                :end user: -up-> (end result):interact with
-                                  @enduml
-                              </code>
-                            </pre>
-                    </section>
-                    <section>
-                        <h2>Everything fits in this model</h2>
-                        <pre>
-                              <code class="language-plantuml">
-                                @startuml
-                                  database git
-                                  database git2
-                                  database git3
-                                (everything)->(build)
-                                (build)->(check)
-                                (check)->(verify)
-                                (verify)->(publish)
-                                (publish)->(deploy)
-                                (deploy)->(validate)
-                                (validate)->(end result)
-
-                                git -down->everything : stores
-                                git2 -down-->verify
-                                git3-down->publish
-
-                                people -up-> (everything) : write as code
-                                program1 --up-> (build): transforms
-                                program2 --up-> (check): syntax and semantics
-                                program3 ---up-> (verify): verifies the user and environment input
-                                program4 --up-> (publish): wrap content
-                                program5 -up-> (deploy): webpage or on traget
-                                program6 --up-> (validate): validate behavior
-                                :end user: -up-> (end result):interact with
-                                  @enduml
-                              </code>
-                            </pre>
-                    </section>
+                    <section data-markdown="idea/code_flow.md"></section>
+                    <section data-markdown="idea/domain.md"></section>
                     <section data-markdown="idea/0_toc.md"></section>
                 </section>
 
@@ -179,6 +118,7 @@
             Reveal.initialize({
                 width: '100%',
                 height: '100%',
+                center: false,
 				controls: false,
                 history: true,
                 dependencies: [
@@ -186,7 +126,7 @@
                     { src: 'lib/plugin/markdown/marked.js' },
                     { src: 'lib/plugin/markdown/markdown.js' },
                     { src: 'lib/plugin/notes/notes.js', async: true },
-                    { src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+                    { src: 'lib/plugin/plantuml/reveal-plantuml.min.js' },
                     { src: 'lib/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
                 ]
             });
