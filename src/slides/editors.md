@@ -3,4 +3,5 @@
 - VS code
 - Intellij
 - Powerpoint* 
-- any other editor 
+-git pitch, requi
+- any other editor
