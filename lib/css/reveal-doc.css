@@ -14,7 +14,6 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 400%;
   font: inherit;
   vertical-align: baseline;
   }
@@ -582,7 +581,9 @@ body {
 .reveal .slides > section > section[data-transition~=slide-out].past,
 .reveal.slide .slides > section > section:not([data-transition]).past {
   -webkit-transform: translate(0, -150%);
-          transform: translate(0, -150%); }
+  transform: translate(0, -150%);
+  background: white;
+  }
 
 .reveal .slides > section > section[data-transition=slide].future,
 .reveal .slides > section > section[data-transition~=slide-in].future,
